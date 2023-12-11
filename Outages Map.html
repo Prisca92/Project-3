@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuclear Outages</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map {
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+<div id="chart-container" style="height: 300px;"></div>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+<script>
+  // Create Leaflet map
+  var map = L.map('map').setView([0, 0], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Array of locations with latitude, longitude, and name
+  var locations = [
+    { latitude: 35.3106814 , longitude: -93.233415, name: 'Arkansas Nuclear One' },
+    { latitude: 40.6212301, longitude: -80.4274537, name: 'Beaver Valley' },
+    { latitude: 41.242618, longitude: -88.2482513, name: 'Braidwood Generation Station' },
+    { latitude:  34.7041925, longitude: 34.7041925, name: 'Browns Ferry' },
+    { latitude: 33.9576, longitude: -78.031887, name: 'Brunswick' },
+    { latitude: 42.0767576, longitude: -89.2838189, name: 'Byron Generating Station' },
+    { latitude: 38.7605323 , longitude: -96.3976211, name: 'Callaway' },
+    { latitude: 38.4313715, longitude: -76.4442597, name: 'Calvert Cliffs Nuclear Power Plant' },
+    { latitude: 35.0550524, longitude: -81.0781745, name: 'Catawba' },
+    { latitude: 40.1728474 , longitude: -88.8357659, name: 'Clinton Power Station' },
+    { latitude: 46.4716757 , longitude: -119.3363914, name: 'Columbia Generating Station' },
+    { latitude: 32.2984 , longitude: -97.7878958, name: 'Comanche Peak' },
+    { latitude: 40.3622308 , longitude: -95.6435664, name: 'Cooper' },
+    { latitude: 41.5962565 , longitude: -83.0979277, name: 'Davis Besse' },
+    { latitude: 35.2117 , longitude: -120.8576123, name: 'Diablo Canyon' },
+    { latitude: 41.9756074 , longitude: -86.5677048 , name: 'Donald C Cook' },
+    { latitude: 41.3884775 , longitude: -88.271923 , name: 'Dresden Generating Station' },
+    { latitude: 31.9344494 , longitude: -82.3626201 , name: 'Edwin I Hatch' },
+    { latitude: 41.9537627 , longitude: -83.2947981 , name: 'Fermi' },
+    { latitude: 32.0113897 , longitude: -91.0511922, name: 'Grand Gulf' },
+    { latitude: 34.4011102 , longitude: -80.1619079, name: 'H B Robinson' },
+    { latitude: 35.6329834 , longitude: 35.6329834, name: 'Harris' },
+    { latitude: 43.5203819 , longitude: -76.4087714, name: 'James A Fitzpatrick' },
+    { latitude: 31.2197745 , longitude: -85.1282153 , name: 'Joseph M Farley' },
+    { latitude: 41.2457423 , longitude: -88.6717698, name: 'LaSalle Generating Station' },
+    { latitude: 40.2254627 , longitude: -75.5884331, name: 'Limerick' },
+    { latitude: 35.4307187 , longitude: -80.9440775, name: 'McGuire' },
+    { latitude: 41.3103638 , longitude: -72.170232, name: 'Millstone' },
+    { latitude: 45.3324406 , longitude: -93.8501055, name: 'Monticello' },
+    { latitude: 43.5203819 , longitude: -76.4087714, name: 'Nine Mile Point Nuclear Station' },
+    { latitude: 38.0605272 , longitude: -77.871845 , name: 'North Anna' },
+    { latitude: 34.7912769 , longitude: -82.8953222 , name: 'Oconee' },
+    { latitude: 41.0894777 , longitude: -76.1484301, name: 'PPL Susquehanna' },
+    { latitude: 39.4662936, longitude: -75.6184603 , name: 'PSEG Hope Creek Generating Station' },
+    { latitude: 39.463127 , longitude: -75.618 , name: 'PSEG Salem Generating Station' },
+    { latitude: 33.382619 , longitude: -112.8631 , name: 'Palo Verde' },
+    { latitude: 39.7600655 , longitude: -76.2714798 , name: 'Peach Bottom' },
+    { latitude: 41.7957326, longitude: -81.1479491 , name: 'Perry' },
+    { latitude: 43.5204066 , longitude: -76.4087695, name: 'Point Beach' },
+    { latitude: 44.6223855 , longitude: -92.6432989, name: 'Prairie Island' },
+    { latitude: 41.7259327 , longitude: -90.329043 , name: 'Quad Cities Generating Station' },
+    { latitude: 43.2775725 , longitude: -77.3119389, name: 'R. E. Ginna Nuclear Power Plant' },
+    { latitude: 30.7578685 , longitude: -91.3334922 , name: 'River Bend Station' },
+    { latitude: 42.8988655 , longitude: -70.8554219, name: 'Seabrook' },
+    { latitude: 35.2267395 , longitude: -85.0950934 , name: 'Sequoyah' },
+    { latitude: 28.7930231 , longitude: -96.0459556, name: 'South Texas Project' },
+    { latitude: 27.3473075, longitude: -80.2474809, name: 'St Lucie' },
+    { latitude: 37.1655876 , longitude: -76.7003631 , name: 'Surry' },
+    { latitude: 25.4344798 , longitude: -80.3336253, name: 'Turkey Point' },
+    { latitude: 34.295488 , longitude: -81.3248348, name: 'V C Summer' },
+    { latitude: 33.1363057 , longitude: -81.7795881, name: 'Vogtle' },
+    { latitude: 29.9960058 , longitude: -90.4899206, name: 'Waterford 3' },
+    { latitude: 35.6015619 , longitude: -84.7935801 , name: 'Watts Bar Nuclear Plant' },
+    { latitude: 38.2391618 , longitude: -95.6920337, name: 'Wolf Creek Generating Station' },
+  ];
+
+  // Add markers to the Leaflet map
+  locations.forEach(function (location) {
+    L.marker([location.latitude, location.longitude]).addTo(map)
+      .bindPopup(location.name);
+  });
+
+
+  // Create Highcharts chart
+  Highcharts.chart('chart-container', {
+    chart: {
+      type: 'column'
+    },
+    title: {
+      text: 'Average Outages by Facility   '
+    },
+    xAxis: {
+      categories: chartData.map(function (entry) {
+        return entry.name;
+      })
+    },
+    series: [{
+      data: chartData
+    }]
+  });
+</script>
+
+</body>
+</html>
