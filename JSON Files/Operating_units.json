@@ -1,0 +1,373 @@
+[
+    {
+      "period": 2022,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 94.659,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2021,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 95.546,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2020,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 96.501,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2019,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 98.119,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2018,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.433,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2017,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.629,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2016,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.565,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2015,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 98.672,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2014,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 98.569,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2013,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.24,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2012,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 101.885,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2011,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 101.419,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2010,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 101.167,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2009,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 101.004,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2008,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 100.755,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2007,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 100.266,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2006,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 100.334,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2005,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.988,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2004,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.628,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2003,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.209,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2002,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 98.657,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2001,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 98.159,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 2000,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 97.86,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1999,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 97.411,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1998,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 97.07,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1997,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.716,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1996,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 100.784,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1995,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.515,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1994,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.148,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1993,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.041,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1992,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 98.985,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1991,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.589,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1990,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 99.624,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1989,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 98.161,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1988,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 94.695,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1987,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 93.583,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1986,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 85.241,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1985,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 79.397,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1984,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 69.652,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1983,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 63.009,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1982,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 60.035,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1981,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 56.042,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1980,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 51.81,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1979,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 49.747,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1978,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 50.824,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1977,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 46.303,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1976,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 43.822,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1975,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 37.267,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1974,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 31.867,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1973,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 22.683,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1972,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 14.481,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1971,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 9.033,
+      "unit": "Million Kilowatts"
+    },
+    {
+      "period": 1970,
+      "msn": "NUGBPUS",
+      "seriesDescription": "Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts",
+      "value": 7.004,
+      "unit": "Million Kilowatts"
+    }
+   ]

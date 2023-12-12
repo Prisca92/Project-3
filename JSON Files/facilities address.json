@@ -1,0 +1,488 @@
+[
+    {
+      "Facility Name": "Arkansas Nuclear One",
+      "Address": "1448 AR-333",
+      "City": "Russellville",
+      "State": "AR ",
+      "Zipcode": 72802,
+      "Lat": 35.3106814,
+      "Lon": -93.233415
+    },
+    {
+      "Facility Name": "Beaver Valley",
+      "Address": "200 Shippingport Rd",
+      "City": "Shippingport",
+      "State": "PA ",
+      "Zipcode": 15001,
+      "Lat": 40.6212301,
+      "Lon": -80.4274537
+    },
+    {
+      "Facility Name": "Braidwood Generation Station",
+      "Address": "35100 IL-53",
+      "City": "Braceville",
+      "State": "IL ",
+      "Zipcode": 60407,
+      "Lat": 41.242618,
+      "Lon": -88.2482513
+    },
+    {
+      "Facility Name": "Browns Ferry",
+      "Address": "Nuclear Plant Rd",
+      "City": "Athens",
+      "State": "AL ",
+      "Zipcode": 35611,
+      "Lat": 34.7041925,
+      "Lon": 87.121024
+    },
+    {
+      "Facility Name": "Brunswick",
+      "Address": "8520 River Rd SE",
+      "City": "Southport",
+      "State": "NC ",
+      "Zipcode": 28461,
+      "Lat": 33.9576,
+      "Lon": -78.031887
+    },
+    {
+      "Facility Name": "Byron Generating Station",
+      "Address": "4450 N German Church Rd",
+      "City": "Byron",
+      "State": "IL ",
+      "Zipcode": 61010,
+      "Lat": 42.0767576,
+      "Lon": -89.2838189
+    },
+    {
+      "Facility Name": "Callaway",
+      "Address": "",
+      "City": "Portland",
+      "State": "MO",
+      "Zipcode": 65067,
+      "Lat": 38.7605323,
+      "Lon": -96.3976211
+    },
+    {
+      "Facility Name": "Calvert Cliffs Nuclear Power Plant",
+      "Address": "1650 Calvert Cliffs Pkwy",
+      "City": "Lusby",
+      "State": "MD ",
+      "Zipcode": 20657,
+      "Lat": 38.4313715,
+      "Lon": -76.4442597
+    },
+    {
+      "Facility Name": "Catawba",
+      "Address": "4800 Concord Rd",
+      "City": "York",
+      "State": "SC ",
+      "Zipcode": 29745,
+      "Lat": 35.0550524,
+      "Lon": -81.0781745
+    },
+    {
+      "Facility Name": "Clinton Power Station",
+      "Address": "8401 Power Rd",
+      "City": "Clinton",
+      "State": "IL ",
+      "Zipcode": 61727,
+      "Lat": 40.1728474,
+      "Lon": -88.8357659
+    },
+    {
+      "Facility Name": "Columbia Generating Station",
+      "Address": "76 N Power Plant Loop",
+      "City": "Richland",
+      "State": "WA ",
+      "Zipcode": 99352,
+      "Lat": 46.4716757,
+      "Lon": -119.3363914
+    },
+    {
+      "Facility Name": "Comanche Peak",
+      "Address": "6322 FM 56",
+      "City": "Glen Rose",
+      "State": "TX ",
+      "Zipcode": 76043,
+      "Lat": 32.2984,
+      "Lon": -97.7878958
+    },
+    {
+      "Facility Name": "Cooper",
+      "Address": "72676 648A Ave",
+      "City": "Brownville",
+      "State": "NE ",
+      "Zipcode": 68321,
+      "Lat": 40.3622308,
+      "Lon": -95.6435664
+    },
+    {
+      "Facility Name": "Davis Besse",
+      "Address": "5501 OH-2",
+      "City": "Oak Harbor",
+      "State": "OH ",
+      "Zipcode": 43449,
+      "Lat": 41.5962565,
+      "Lon": -83.0979277
+    },
+    {
+      "Facility Name": "Diablo Canyon",
+      "Address": " Diablo Canyon Rd",
+      "City": "Avila Beach",
+      "State": "CA ",
+      "Zipcode": 93424,
+      "Lat": 35.2117,
+      "Lon": -120.8576123
+    },
+    {
+      "Facility Name": "Donald C Cook",
+      "Address": "1 Cook Pl",
+      "City": "Bridgman",
+      "State": "MI ",
+      "Zipcode": 49106,
+      "Lat": 41.9756074,
+      "Lon": -86.5677048
+    },
+    {
+      "Facility Name": "Dresden Generating Station",
+      "Address": "6500 N Dresden Rd",
+      "City": "Morris",
+      "State": "IL ",
+      "Zipcode": 60450,
+      "Lat": 41.3884775,
+      "Lon": -88.271923
+    },
+    {
+      "Facility Name": "Edwin I Hatch",
+      "Address": "11028 Hatch Pkwy N",
+      "City": "Baxley",
+      "State": "GA ",
+      "Zipcode": 31513,
+      "Lat": 31.9344494,
+      "Lon": -82.3626201
+    },
+    {
+      "Facility Name": "Fermi",
+      "Address": "",
+      "City": "Newport",
+      "State": "MI ",
+      "Zipcode": 48166,
+      "Lat": 41.9537627,
+      "Lon": -83.2947981
+    },
+    {
+      "Facility Name": "Grand Gulf",
+      "Address": "7003 Bald Hill Rd",
+      "City": "Port Gibson",
+      "State": "MS ",
+      "Zipcode": 39150,
+      "Lat": 32.0113897,
+      "Lon": -91.0511922
+    },
+    {
+      "Facility Name": "H B Robinson",
+      "Address": "3581 W Entrance Rd",
+      "City": "Hartsville",
+      "State": "SC ",
+      "Zipcode": 29550,
+      "Lat": 34.4011102,
+      "Lon": -80.1619079
+    },
+    {
+      "Facility Name": "Harris",
+      "Address": "5421 Shearon Harris Rd",
+      "City": " New Hill",
+      "State": "NC ",
+      "Zipcode": 27562,
+      "Lat": 35.6329834,
+      "Lon": -79.0366196
+    },
+    {
+      "Facility Name": "James A Fitzpatrick",
+      "Address": "348 Lake Rd",
+      "City": "Oswego",
+      "State": "NY ",
+      "Zipcode": 13126,
+      "Lat": 43.5203819,
+      "Lon": -76.4087714
+    },
+    {
+      "Facility Name": "Joseph M Farley",
+      "Address": "7388 North AL-95",
+      "City": "Columbia",
+      "State": "AL ",
+      "Zipcode": 36319,
+      "Lat": 31.2197745,
+      "Lon": -85.1282153
+    },
+    {
+      "Facility Name": "LaSalle Generating Station",
+      "Address": "2601 N 21st Rd",
+      "City": "Marseilles",
+      "State": "IL ",
+      "Zipcode": 61341,
+      "Lat": 41.2457423,
+      "Lon": -88.6717698
+    },
+    {
+      "Facility Name": "Limerick",
+      "Address": "3146 Sanatoga Rd",
+      "City": "Pottstown",
+      "State": "PA ",
+      "Zipcode": 19464,
+      "Lat": 40.2254627,
+      "Lon": -75.5884331
+    },
+    {
+      "Facility Name": "McGuire",
+      "Address": "13225 McGuire Nuclear Station Rd",
+      "City": "Huntersville",
+      "State": "NC ",
+      "Zipcode": 28078,
+      "Lat": 35.4307187,
+      "Lon": -80.9440775
+    },
+    {
+      "Facility Name": "Millstone",
+      "Address": "314 Rope Ferry Rd",
+      "City": "Waterford",
+      "State": "CT ",
+      "Zipcode": 6385,
+      "Lat": 41.3103638,
+      "Lon": -72.170232
+    },
+    {
+      "Facility Name": "Monticello",
+      "Address": "2807 County Rd 75 NE UNIT 1",
+      "City": "Monticello",
+      "State": "MN ",
+      "Zipcode": 55362,
+      "Lat": 45.3324406,
+      "Lon": -93.8501055
+    },
+    {
+      "Facility Name": "Nine Mile Point Nuclear Station",
+      "Address": "348 Lake Rd",
+      "City": "Oswego",
+      "State": "NY ",
+      "Zipcode": 13126,
+      "Lat": 43.5203819,
+      "Lon": -76.4087714
+    },
+    {
+      "Facility Name": "North Anna",
+      "Address": "",
+      "City": "Mineral",
+      "State": "VA",
+      "Zipcode": 23117,
+      "Lat": 38.0605272,
+      "Lon": -77.871845
+    },
+    {
+      "Facility Name": "Oconee",
+      "Address": "7812 Rochester Hwy",
+      "City": "Seneca",
+      "State": "SC ",
+      "Zipcode": 29672,
+      "Lat": 34.7912769,
+      "Lon": -82.8953222
+    },
+    {
+      "Facility Name": "PPL Susquehanna",
+      "Address": "769 Salem Blvd",
+      "City": "Berwick",
+      "State": "PA ",
+      "Zipcode": 18603,
+      "Lat": 41.0894777,
+      "Lon": -76.1484301
+    },
+    {
+      "Facility Name": "PSEG Hope Creek Generating Station",
+      "Address": "",
+      "City": "Hancocks Bridge",
+      "State": "NJ ",
+      "Zipcode": 8038,
+      "Lat": 39.4662936,
+      "Lon": -75.6184603
+    },
+    {
+      "Facility Name": "PSEG Salem Generating Station",
+      "Address": "",
+      "City": "Lower Alloways Creek",
+      "State": "NJ",
+      "Zipcode": null,
+      "Lat": 39.463127,
+      "Lon": -75.618
+    },
+    {
+      "Facility Name": "Palo Verde",
+      "Address": "5801 S Wintersburg Rd",
+      "City": "Tonopah",
+      "State": "AZ",
+      "Zipcode": 85354,
+      "Lat": 33.382619,
+      "Lon": -112.8631
+    },
+    {
+      "Facility Name": "Peach Bottom",
+      "Address": "1848 Lay Rd",
+      "City": "Delta",
+      "State": "PA ",
+      "Zipcode": 17314,
+      "Lat": 39.7600655,
+      "Lon": -76.2714798
+    },
+    {
+      "Facility Name": "Perry",
+      "Address": "10 Center Rd",
+      "City": "Perry",
+      "State": "OH ",
+      "Zipcode": 44081,
+      "Lat": 41.7957326,
+      "Lon": -81.1479491
+    },
+    {
+      "Facility Name": "Point Beach",
+      "Address": "6610 Nuclear Rd",
+      "City": "Two Rivers",
+      "State": "WI ",
+      "Zipcode": 54241,
+      "Lat": 43.5204066,
+      "Lon": -76.4087695
+    },
+    {
+      "Facility Name": "Prairie Island",
+      "Address": "1717 Wakonade Dr",
+      "City": "Welch",
+      "State": "MN ",
+      "Zipcode": 55089,
+      "Lat": 44.6223855,
+      "Lon": -92.6432989
+    },
+    {
+      "Facility Name": "Quad Cities Generating Station",
+      "Address": "22710 206th Ave N",
+      "City": "Cordova",
+      "State": "IL ",
+      "Zipcode": 61242,
+      "Lat": 41.7259327,
+      "Lon": -90.329043
+    },
+    {
+      "Facility Name": "R. E. Ginna Nuclear Power Plant",
+      "Address": "1503 Lake Rd",
+      "City": "Ontario",
+      "State": "NY ",
+      "Zipcode": 14519,
+      "Lat": 43.2775725,
+      "Lon": -77.3119389
+    },
+    {
+      "Facility Name": "River Bend Station",
+      "Address": "River Bend St",
+      "City": "St Francisville",
+      "State": "LA ",
+      "Zipcode": 70775,
+      "Lat": 30.7578685,
+      "Lon": -91.3334922
+    },
+    {
+      "Facility Name": "Seabrook",
+      "Address": "626 Lafayette Rd",
+      "City": "Seabrook",
+      "State": "NH ",
+      "Zipcode": 3874,
+      "Lat": 42.8988655,
+      "Lon": -70.8554219
+    },
+    {
+      "Facility Name": "Sequoyah",
+      "Address": "2440 Igou Ferry Rd",
+      "City": "Soddy-Daisy",
+      "State": "TN ",
+      "Zipcode": 37379,
+      "Lat": 35.2267395,
+      "Lon": -85.0950934
+    },
+    {
+      "Facility Name": "South Texas Project",
+      "Address": "12090 FM521",
+      "City": "Bay City",
+      "State": "TX ",
+      "Zipcode": 77414,
+      "Lat": 28.7930231,
+      "Lon": -96.0459556
+    },
+    {
+      "Facility Name": "St Lucie",
+      "Address": "6501 S Ocean Dr",
+      "City": "Jensen Beach",
+      "State": "FL ",
+      "Zipcode": 34957,
+      "Lat": 27.3473075,
+      "Lon": -80.2474809
+    },
+    {
+      "Facility Name": "Surry",
+      "Address": "5570 Hog Island Rd",
+      "City": "Surry",
+      "State": "VA ",
+      "Zipcode": 23883,
+      "Lat": 37.1655876,
+      "Lon": -76.7003631
+    },
+    {
+      "Facility Name": "Turkey Point",
+      "Address": "",
+      "City": "Homestead",
+      "State": "FL ",
+      "Zipcode": 33033,
+      "Lat": 25.4344798,
+      "Lon": -80.3336253
+    },
+    {
+      "Facility Name": "V C Summer",
+      "Address": "",
+      "City": "Jenkinsville",
+      "State": "SC ",
+      "Zipcode": 29065,
+      "Lat": 34.295488,
+      "Lon": -81.3248348
+    },
+    {
+      "Facility Name": "Vogtle",
+      "Address": "7821 River Rd",
+      "City": "Waynesboro",
+      "State": "GA ",
+      "Zipcode": 30830,
+      "Lat": 33.1363057,
+      "Lon": -81.7795881
+    },
+    {
+      "Facility Name": "Waterford 3",
+      "Address": "17265 River Rd",
+      "City": "Killona",
+      "State": "LA ",
+      "Zipcode": 70057,
+      "Lat": 29.9960058,
+      "Lon": -90.4899206
+    },
+    {
+      "Facility Name": "Watts Bar Nuclear Plant",
+      "Address": "6868 Watts Bar Hwy",
+      "City": "Spring City",
+      "State": "TN ",
+      "Zipcode": 37381,
+      "Lat": 35.6015619,
+      "Lon": -84.7935801
+    },
+    {
+      "Facility Name": "Wolf Creek Generating Station",
+      "Address": "Wolf Creek Noc",
+      "City": "Burlington",
+      "State": "KS ",
+      "Zipcode": 66839,
+      "Lat": 38.2391618,
+      "Lon": -95.6920337
+    }
+   ]
