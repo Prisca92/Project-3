@@ -91,24 +91,257 @@
       .bindPopup(location.name);
   });
 
+// JSON data for Highcharts
+var jsonData = [
+ {
+   "facilityName": "Arkansas Nuclear One",
+   "percentOutage": 43.34097826
+ },
+ {
+   "facilityName": "Beaver Valley",
+   "percentOutage": 24.08206522
+ },
+ {
+   "facilityName": "Braidwood Generation Station",
+   "percentOutage": 11.90860215
+ },
+ {
+   "facilityName": "Browns Ferry",
+   "percentOutage": 14.69096774
+ },
+ {
+   "facilityName": "Brunswick",
+   "percentOutage": 1.694731183
+ },
+ {
+   "facilityName": "Byron Generating Station",
+   "percentOutage": 0.202365591
+ },
+ {
+   "facilityName": "Callaway",
+   "percentOutage": 0.119565217
+ },
+ {
+   "facilityName": "Calvert Cliffs Nuclear Power Plant",
+   "percentOutage": 0.186451613
+ },
+ {
+   "facilityName": "Catawba",
+   "percentOutage": 14.70064516
+ },
+ {
+   "facilityName": "Clinton Power Station",
+   "percentOutage": 0.075268817
+ },
+ {
+   "facilityName": "Columbia Generating Station",
+   "percentOutage": 0
+ },
+ {
+   "facilityName": "Comanche Peak",
+   "percentOutage": 0.195
+ },
+ {
+   "facilityName": "Cooper",
+   "percentOutage": 55.42391304
+ },
+ {
+   "facilityName": "Davis Besse",
+   "percentOutage": 15.18478261
+ },
+ {
+   "facilityName": "Diablo Canyon",
+   "percentOutage": 22.34554348
+ },
+ {
+   "facilityName": "Donald C Cook",
+   "percentOutage": 24.39021505
+ },
+ {
+   "facilityName": "Dresden Generating Station",
+   "percentOutage": 12.85473118
+ },
+ {
+   "facilityName": "Edwin I Hatch",
+   "percentOutage": 4.632391304
+ },
+ {
+   "facilityName": "Fermi",
+   "percentOutage": 0
+ },
+ {
+   "facilityName": "Grand Gulf",
+   "percentOutage": 7.086956522
+ },
+ {
+   "facilityName": "H B Robinson",
+   "percentOutage": 58.37634409
+ },
+ {
+   "facilityName": "Harris",
+   "percentOutage": 29.93548387
+ },
+ {
+   "facilityName": "James A Fitzpatrick",
+   "percentOutage": 19.31521739
+ },
+ {
+   "facilityName": "Joseph M Farley",
+   "percentOutage": 46.34333333
+ },
+ {
+   "facilityName": "LaSalle Generating Station",
+   "percentOutage": 1.264731183
+ },
+ {
+   "facilityName": "Limerick",
+   "percentOutage": 0.037934783
+ },
+ {
+   "facilityName": "McGuire",
+   "percentOutage": 0.005376344
+ },
+ {
+   "facilityName": "Millstone",
+   "percentOutage": 0.101505376
+ },
+ {
+   "facilityName": "Monticello",
+   "percentOutage": 0.193548387
+ },
+ {
+   "facilityName": "Nine Mile Point Nuclear Station",
+   "percentOutage": 0.150752688
+ },
+ {
+   "facilityName": "North Anna",
+   "percentOutage": 14.83206522
+ },
+ {
+   "facilityName": "Oconee",
+   "percentOutage": 10.02376344
+ },
+ {
+   "facilityName": "PPL Susquehanna",
+   "percentOutage": 2.054347826
+ },
+ {
+   "facilityName": "PSEG Hope Creek Generating Station",
+   "percentOutage": 35.20652174
+ },
+ {
+   "facilityName": "PSEG Salem Generating Station",
+   "percentOutage": 1.470537634
+ },
+ {
+   "facilityName": "Palo Verde",
+   "percentOutage": 13.80849462
+ },
+ {
+   "facilityName": "Peach Bottom",
+   "percentOutage": 9.688602151
+ },
+ {
+   "facilityName": "Perry",
+   "percentOutage": 10.1827957
+ },
+ {
+   "facilityName": "Point Beach",
+   "percentOutage": 0
+ },
+ {
+   "facilityName": "Prairie Island",
+   "percentOutage": 16.07537634
+ },
+ {
+   "facilityName": "Quad Cities Generating Station",
+   "percentOutage": 2.187956989
+ },
+ {
+   "facilityName": "R. E. Ginna Nuclear Power Plant",
+   "percentOutage": 0
+ },
+ {
+   "facilityName": "River Bend Station",
+   "percentOutage": 7.695652174
+ },
+ {
+   "facilityName": "Seabrook",
+   "percentOutage": 0
+ },
+ {
+   "facilityName": "Sequoyah",
+   "percentOutage": 20.18130435
+ },
+ {
+   "facilityName": "South Texas Project",
+   "percentOutage": 19.38423913
+ },
+ {
+   "facilityName": "St Lucie",
+   "percentOutage": 3.242934783
+ },
+ {
+   "facilityName": "Surry",
+   "percentOutage": 27.65053763
+ },
+ {
+   "facilityName": "Turkey Point",
+   "percentOutage": 1.120430108
+ },
+ {
+   "facilityName": "V C Summer",
+   "percentOutage": 0
+ },
+ {
+   "facilityName": "Vogtle",
+   "percentOutage": 28.09139785
+ },
+ {
+   "facilityName": "Waterford 3",
+   "percentOutage": 0
+ },
+ {
+   "facilityName": "Watts Bar Nuclear Plant",
+   "percentOutage": 0.39423913
+ },
+ {
+   "facilityName": "Wolf Creek Generating Station",
+   "percentOutage": 50.74193548
+ }
+];
+  // Log JSON data to the console
+  console.log('JSON Data:', jsonData);
 
-  // Create Highcharts chart
-  Highcharts.chart('chart-container', {
-    chart: {
-      type: 'column'
-    },
+ // Create Highcharts chart
+Highcharts.chart('chart-container', {
+  chart: {
+    type: 'column' 
+  },
+  title: {
+    text: 'Outage by Facility (%) for the year 2022'
+  },
+  xAxis: {
+    categories: jsonData.map(function (entry) {
+      return entry['facilityName'];
+    }),
     title: {
-      text: 'Average Outages by Facility   '
-    },
-    xAxis: {
-      categories: chartData.map(function (entry) {
-        return entry.name;
-      })
-    },
-    series: [{
-      data: chartData
-    }]
-  });
+      text: 'Facility Name'
+    }
+  },
+  yAxis: {
+    title: {
+      text: 'Percent Outage'
+    }
+  },
+  series: [{
+    name: 'Percent Outage',
+    data: jsonData.map(function (entry) {
+      return parseFloat(entry['percentOutage']);
+    })
+  }]
+});
+
 </script>
 
 </body>
