@@ -28,3 +28,9 @@ Highlights the amount of nuclear outages for each plant in 2022.
 Power Production Visualization:
 Illustrates the amount of nuclear electric power production.
 Includes insights into the operating units contributing to the production.
+
+Electric Power Consumption Visualization:
+A line graph was used to show trends, over time. As a result, it functions best because the data collection is continuous as opposed to having many beginnings and ends. This interactive model allows users to view historical energy consumption data and also interact with the visualization in some form using (zoom function, text box’s, and a drop down function to view the data collected) . It is this interactivity that will allow users the ability to investigate their energy usage behavior and patterns more closely, and possibly assist them to change their underlying energy consumption behaviors.
+
+
+When looking at the 'Nuclear Electric Power Consumption Over Time' graph, we observed a generally increasing trend in nuclear energy consumption from 1970 to 2022. There is a noticeable spike in the  late 1970’s early 1980s, which could be attributed to increased investment in nuclear power during that period. The trend remains relatively stable until the early 2000s when we see another uptick, possibly indicating renewed interest or expansion in nuclear energy production. It's essential to note the contextual factors, such as changes in energy policies or economic conditions, that may have influenced these consumption patterns. Overall, nuclear energy consumption has played a significant role in the energy mix over the years, with fluctuations that reflect both policy decisions and broader energy trends.
