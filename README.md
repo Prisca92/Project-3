@@ -14,9 +14,9 @@ Utilizing the Pandas library and Jupyter Notebook, we processed the collected da
 The processed data was exported as CSV files, which were subsequently converted to JSON for further compatibility.
 
 3. Database Integration:
-To enhance data management and accessibility, we imported the CSV files into a PostgreSQL database.
+To enhance data management and accessibility, we imported the CSV files into a PostgreSQL database. Our Flask web interface was styled by a bootstrap template created by Creative Tim (https://www.creative-tim.com/product/get-shit-done-kit). We customized the site so we would be able to display our visualizations. We used PSYCOPG2, a postgres adapter to connect the Flask Application to our server.
 
-4. Visualization:
+5. Visualization:
 We employed the following JavaScript libraries for visualization: Papa Parse, jQuery, Leaflet, and Highcharts.
 
 Created three visualizations:
